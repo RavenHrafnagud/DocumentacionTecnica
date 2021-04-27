@@ -1,0 +1,77 @@
+nav{
+    position:fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+
+#listaGrande{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:20%;
+}
+
+#listaGrande li a{
+    text-decoration: none;
+    color: black;
+}
+
+#listaGrande li{
+    text-decoration: none;
+    color: black;
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    #listaPequena{    
+        display: none;
+    }    
+}
+
+#main-doc{
+    position:absolute;
+    width: 80%;
+    right:0;
+}
+
+header{
+    font-size: 2.5rem;
+}
+
+#headerTitulo{
+    padding-top:4rem;
+    height: 15%;
+}
+
+article{
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+code{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+li{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2.7rem;
+    margin-right: 2.7rem;
+}

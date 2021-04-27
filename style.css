@@ -28,7 +28,6 @@ nav{
 
 @media (max-width: 767px) {
     #listaGrande{
-        width: 0;
         display: none;
     }
 }
@@ -93,4 +92,9 @@ li{
     margin-bottom: 1rem;
     margin-left: 1.7rem;
     margin-right: 1.7rem;
+}
+
+#linkDePie a{
+    text-decoration: none;
+    color: #344b52;
 }
